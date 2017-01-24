@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'diplomat', '0.18.0'
+  spec.add_runtime_dependency 'matron-client', '0.1.0'
   spec.add_runtime_dependency 'sequel', "~> 4.42.1"
   spec.add_runtime_dependency 'mysql2'
   spec.add_development_dependency "bundler", "~> 1.12"
